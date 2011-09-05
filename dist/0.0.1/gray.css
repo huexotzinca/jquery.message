@@ -1,0 +1,173 @@
+/**
+  * jQuery.messages CSS code.
+  *
+  * @package    jQuery.messages
+  * @author     Neftali Bautista
+  * @since      0.0.1
+  */
+
+@media screen {
+  @font-face {
+    font-family: 'Amaranth';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Amaranth'), url('http://themes.googleusercontent.com/font?kit=RvdVaxHTnYbJDko8dLi4zvesZW2xOQ-xsNqO47m55DA') format('woff');
+  }
+  
+  @font-face {
+    font-family: 'Just Another Hand';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Just Another Hand'), local('JustAnotherHand-Regular'), url('http://themes.googleusercontent.com/font?kit=fKV8XYuRNNagXr38eqbRf8DbBFScDQWNirGEA9Q9Yto') format('woff');
+  }
+  @font-face {
+    font-family: 'FF Din';
+    src: url("http://www.abstraktion.co.uk/fonts/din_medium-webfont.eot");
+    src: url("http://www.abstraktion.co.uk/fonts/din_medium-webfont.eot?#iefix") format("embedded-opentype"), url("http://www.abstraktion.co.uk/fonts/din_medium-webfont.woff") format("woff"), url("http://www.abstraktion.co.uk/fonts/din_medium-webfont.ttf") format("truetype"), url("http://www.abstraktion.co.uk/fonts/din_medium-webfont.svg#DINMediumRegular") format("svg");
+    font-weight: normal;
+    font-style: normal; }
+}
+
+.block-messages {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+.block-messages .loading-msg {
+  position: absolute;
+  right: 0px;
+  display: block;
+  padding: 1px 2px 1px 22px;
+  height: 18px;
+  width: auto;
+  background: #ff0033 url(http://www.neftalibautista.com/assets/img/ajax/001.gif) no-repeat scroll 3px center;
+  color: white;
+  font-size: 12px;
+  font-family: Helvetica, Arial, Verdana, "Lucida Sans Unicode", Sans-serif;
+  font-weight: bold;
+}
+
+.block-messages .notice-msg {
+  position: fixed;
+  right: 10px;
+  width: 200px;
+  font: normal normal bold 13px Helvetica, Arial, Verdana, "Lucida Sans Unicode", sans-serif;
+  bottom: 10px;
+}
+
+.block-messages .notice-msg a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.block-messages .notice-msg a:hover {
+  color: #fdfdfd;
+}
+
+.block-messages .notice-msg .container {
+  display: none;
+  padding: 0;
+  margin: 8px 0 0 0;
+  opacity: 1;
+  overflow: hidden;
+  height: 48px;
+  width: 200px;
+  background: #292929 url(http://www.neftalibautista.com/assets/img/notice/images.png) no-repeat scroll 3px -286px;
+  color: #fff;
+  border: 2px solid #333;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -o-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -khtml-border-radius: 10px;
+  border-radius: 10px;
+  -moz-box-shadow: 7px 5px 12px #5D5D5D;
+  -webkit-box-shadow: 7px 5px 12px #5D5D5D;
+  -o-box-shadow: 7px 5px 12px #5D5D5D;
+  -ms-box-shadow: 7px 5px 12px #5D5D5D;
+  -khtml-box-shadow: 7px 5px 12px #5D5D5D;
+  box-shadow: 7px 5px 12px #5D5D5D;
+}
+
+.block-messages .notice-msg .container .content {
+  width: auto;
+  padding: 5px 5px 5px 43px;
+  height: 40px;
+  display: -moz-box;
+  display: -webkit-box;
+  display: box;
+  -moz-box-orient: horizontal;
+  -webkit-box-orient: horizontal;
+  box-orient: horizontal;
+  -moz-box-align: center;
+  -webkit-box-align: center;
+  box-align: center;
+}
+
+.block-messages .notice-msg .container.success {
+  background-position: 3px -32px;
+  color: #afcc5f;
+}
+
+.block-messages .notice-msg .container.success a {
+  color: #afcc5f;
+}
+
+.block-messages .notice-msg .container.success a:hover {
+  color: #cbde96;
+}
+
+.block-messages .notice-msg .container.error {
+  background-position: 3px -326px;
+  color: #d9262c;
+}
+
+.block-messages .notice-msg .container.error a {
+  color: #d9262c;
+}
+
+.block-messages .notice-msg .container.error a:hover {
+  color: #dd3c41;
+}
+
+.block-messages .notice-msg .container.warning {
+  background-position: 3px -159px;
+  color: #cfaa00;
+}
+
+.block-messages .notice-msg .container.warning a {
+  color: #cfaa00;
+}
+
+.block-messages .notice-msg .container.warning a:hover {
+  color: #ffd203;
+}
+
+.block-messages .notice-msg .container.info {
+  background-position: 3px -200px;
+}
+
+.block-messages .notice-msg .container.time {
+  background-position: 3px -74px;
+}
+
+.block-messages .notice-msg .container.upgrade {
+  background-position: 3px -242px;
+  color: #42b9b1;
+}
+
+.block-messages .notice-msg .container.upgrade a {
+  color: #42b9b1;
+}
+
+.block-messages .notice-msg .container.upgrade a:hover {
+  color: #8fd6d2;
+}
+
+.block-messages .notice-msg .container.funny {
+  background-position: 3px -116px;
+}

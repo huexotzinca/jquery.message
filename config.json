@@ -1,0 +1,8 @@
+{
+  "JS_VERSION" : "0.0.3", 
+  "JS_URL"     : "http://lab.huexotzinca.com/",
+  "JS_NAME"    : "jquery.message",
+  "JS_AUTHOR"  : "Neftali Bautista",
+  "JS_DESC"    : "Message classes for jquery and jquery plugins",
+  "JS_LICENSE" : "http://lab.huexotzinca.com/license.html"
+}
